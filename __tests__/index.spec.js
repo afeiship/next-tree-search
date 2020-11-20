@@ -1,7 +1,6 @@
-(function () {
-  var nx = require('@feizheng/next-js-core2');
-  var NxTreeSearch = require('../src/next-tree-search');
-  var menus = require('./menu.json');
+(function() {
+  const NxTreeSearch = require('../src');
+  const menus = require('./menu.json');
 
   describe('NxTreeSearch.methods', function () {
     test('static tree find should return value or undefind:', () => {
@@ -33,4 +32,5 @@
       expect(res2).toEqual([]);
     });
   });
+
 })();

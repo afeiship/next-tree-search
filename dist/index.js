@@ -1,7 +1,16 @@
-(function () {
+/*!
+ * name: @jswork/next-tree-search
+ * description: Tree search methods for next.
+ * homepage: https://github.com/afeiship/next-tree-search
+ * version: 1.0.0
+ * date: 2020-11-20 13:31:51
+ * license: MIT
+ */
+
+(function() {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
-  var nxTraverse = nx.traverse || require('@feizheng/next-traverse');
+  var nx = global.nx || require('@jswork/next');
+  var nxTraverse = nx.traverse || require('@jswork/next-traverse');
   var DEFAULT_OPTIONS = { itemsKey: 'children', inject: false };
 
   var NxTreeSearch = nx.declare('nx.TreeSearch', {
