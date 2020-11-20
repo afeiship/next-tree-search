@@ -37,5 +37,15 @@
   },
   "dependencies": {
     "@jswork/next-traverse": "^1.0.1"
-  }
+  },
+  "keywords": [
+    "next",
+    "tree",
+    "search",
+    "filter",
+    "find",
+    "traverse",
+    "walk",
+    "helper"
+  ]
 }

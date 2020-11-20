@@ -3,7 +3,7 @@
  * description: Tree search methods for next.
  * homepage: https://github.com/afeiship/next-tree-search
  * version: 1.0.0
- * date: 2020-11-20 13:31:51
+ * date: 2020-11-20 13:39:45
  * license: MIT
  */
 
